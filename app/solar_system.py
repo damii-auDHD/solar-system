@@ -2,9 +2,6 @@ import math
 import pygame
 from planets import Body
 
-# Visual gravitational constant — tuned so orbital speeds look natural
-# on screen.  This is *not* real-world G; it just controls how fast
-# planets orbit at a given distance and parent mass.
 G_VISUAL = 100
 
 # Golden angle (~137.5°) used to stagger starting positions so planets

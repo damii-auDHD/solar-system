@@ -14,8 +14,8 @@ class Body:
         self.colour = colour
         self.parent = parent
         self.orbital_distance = orbital_distance
-        self.orbital_speed = orbital_speed      # radians / second
-        self.orbital_angle = 0.0                # current angle (set by generator)
+        self.orbital_speed = orbital_speed    
+        self.orbital_angle = 0.0                
         self.position = pygame.Vector2(0, 0)
         self.satellites = []
         self.has_ring = False
