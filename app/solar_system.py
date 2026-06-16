@@ -130,7 +130,7 @@ def generate_celestial_tree(node, center_pos,
     body.has_ring = node.get("has_ring", False)
     bodies_list.append(body)
 
-    # Recurse into satellites
+    # i hate recursions but we use it regardless
     if "satellites" in node:
         for i, sat_data in enumerate(node["satellites"]):
             generate_celestial_tree(sat_data, center_pos, body,
