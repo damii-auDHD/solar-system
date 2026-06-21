@@ -8,7 +8,7 @@ G_VISUAL = 100
 # don't all begin in a straight line.
 GOLDEN_ANGLE = math.pi * (3 - math.sqrt(5))
 
-# ── Solar system definition ───────────────────────────────────────
+
 # Every satellite lists its orbital distance from its *parent*.
 # Orbital speed is derived automatically via Kepler:  ω = √(G·M/r³)
 SOLAR_SYSTEM_DATA = {
