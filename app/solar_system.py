@@ -4,8 +4,6 @@ from planets import Body
 
 G_VISUAL = 100
 
-# Golden angle (~137.5°) used to stagger starting positions so planets
-# don't all begin in a straight line.
 GOLDEN_ANGLE = math.pi * (3 - math.sqrt(5))
 
 
