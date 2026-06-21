@@ -96,9 +96,6 @@ def generate_celestial_tree(node, center_pos,
 
     Each body's orbital speed is derived from Kepler's third law:
         ω = √(G_VISUAL · M_parent / r³)
-
-    Starting angles are staggered by the golden angle so planets
-    don't begin in a straight line.
     """
     if bodies_list is None:
         bodies_list = []
