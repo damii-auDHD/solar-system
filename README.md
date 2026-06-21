@@ -72,13 +72,6 @@ app/
 | Europa | Jupiter | 36 |
 | 🪐 Saturn | Sun | 440 |
 
-## 🔮 Roadmap
-
-- [ ] Migrate to 3D using **Ursina**
-- [ ] Add Uranus & Neptune
-- [ ] Asteroid belt between Mars and Jupiter
-- [ ] Planet info panel on hover/click
-- [ ] Zoom & pan controls
 
 ## 📄 License
 
